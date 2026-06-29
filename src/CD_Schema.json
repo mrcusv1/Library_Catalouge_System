@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CD Schema",
+  "type": "object",
+
+  "properties": {
+    "CD": {
+      "type": "object",
+      "properties": {
+        "oclcNumber": { "type": "string" },
+
+        "title": { "type": "string" },
+
+        "performers": {
+          "type": "object",
+          "properties": {
+            "performer": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "musicalGroup": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          },
+          "required": ["performer"]
+        },
+
+        "Credits": {
+          "type": "object",
+          "properties": {
+            "soundTrackProducer": { "type": "string" }
+          },
+          "required": ["soundTrackProducer"]
+        },
+
+        "yearReleased": { "type": "integer" },
+
+        "language": { "type": "string" },
+
+        "publisher": {
+          "type": "object",
+          "properties": {
+            "location": { "type": "string" },
+            "name": { "type": "string" }
+          },
+          "required": ["location", "name"]
+        },
+
+        "genre": { "type": "string" },
+
+        "physicalDescription": {
+          "type": "object",
+          "properties": {
+            "type": { "type": "string" },
+            "value": { "type": "string" }
+          },
+          "required": ["type", "value"]
+        },
+
+        "ISBN": { "type": "string" }
+      },
+
+      "required": [
+        "oclcNumber",
+        "title",
+        "performers",
+        "Credits",
+        "yearReleased",
+        "language",
+        "publisher",
+        "genre",
+        "physicalDescription",
+        "ISBN"
+      ]
+    }
+  },
+
+  "required": ["CD"]
+}

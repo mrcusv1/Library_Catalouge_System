@@ -1,0 +1,41 @@
+{
+  "CD": {
+    "oclcNumber": "844729739",
+    "title": "The Great Gatsby",
+    "performers": {
+      "performer": [
+        "Jay-Z",
+        "Beyonce",
+        "Andre 3000",
+        "Will i.am",
+        "Fergie",
+        "Gotye",
+        "Lana Del Rey",
+        "Jack White",
+        "Florence + the Machine",
+        "Bryan Ferry Orchestra",
+        "XX",
+        "Nero"
+      ],
+      "musicalGroup": [
+        "XX",
+        "Nero"
+      ]
+    },
+    "Credits": {
+      "soundTrackProducer": "Baz Luhrmann"
+    },
+    "yearReleased": 2013,
+    "language": "English",
+    "publisher": {
+      "location": "Santa Monica, CA",
+      "name": "Interscope Records"
+    },
+    "genre": "Motion picture music",
+    "physicalDescription": {
+      "type": "disc",
+      "value": "1 sound : digital ; 4 3/4 in."
+    },
+    "ISBN": "9786314770013"
+  }
+}

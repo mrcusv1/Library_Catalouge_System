@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CD>
+    <oclcNumber>844729739</oclcNumber>
+    Title:
+    <title>The Great Gatsby</title>
+
+    <performers>
+    <performer> Jay-Z</performer>
+    <performer>Beyonce</performer>
+    <performer>Andre 3000</performer>
+    <performer>Will i.am</performer>
+    <performer>Fergie</performer>
+    <performer>Gotye</performer>
+    <performer>Lana Del Rey</performer>
+    <performer>Jack White</performer>
+    <performer>Florence + the Machine</performer>
+        <performer>Bryan Ferry Orchestra</performer>
+        <performer>XX</performer>
+        <performer>Nero</performer>
+        <muscialGroup>XX</muscialGroup>
+        <muscialGroup>Nero</muscialGroup>
+</performers>
+    <Credits>
+       <soundTrackProducer> Baz Luhrmann</soundTrackProducer>
+    </Credits>
+
+    Year of release:
+    <yearReleased>2013</yearReleased>
+
+    <language>English</language>
+
+
+    <publisher location = "Santa Monica, CA">Interscope Records</publisher>
+    Genre:
+    <genre>Motion picture music</genre>
+    <physicalDesc type = "disc">1 sound : digital ; 4 3/4 in.</physicalDesc>
+    <ISBN>9786314770013</ISBN>
+
+</CD>
